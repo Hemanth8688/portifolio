@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+    margin: 0;
+    /* font-family: "Poppins", sans-serif; */
+
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgba(14, 13, 13);
+    color: rgb(39, 207, 13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.image-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit:contain;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+.links{
+    color:rgb(39, 207, 13) ;
+    margin:0px 50px 0px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.links:hover{
+    color: coral;
+    text-decoration: underline;
+}
+.navbar h2{
+    margin-left: 20px;
+    font-size: 22px;
+    color: coral;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+/* -------------navbar completed------------ */
+.profile{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    /* background-color: coral; */
+    padding:50px 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+
+}
+.photo-2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 2px solid black;
+
+}
+.text-container{
+    width: 600px;
+}
+/* h1{
+    color:rgb(39, 207, 13) ;
+
+
+} */
+.profile h3{
+    margin: -20px 0px -10px 0px;
+    color: rgba(0, 0, 255, 0.61);
+}
+.icons-container{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.anchor-icon{
+    margin-top: 15px;
+
+}
+.ico{
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 7px 16px;
+    box-shadow: 0px 0px 5px 5px gray;
+    color: black;
+}
+.bi-linkedin:hover{
+    color: rgba(0, 0, 255, 0.937);
+}
+
+
+
+/* -----------------profile completed---------------- */
+.project-section{
+    /* background-color: coral; */
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    padding: 10px;
+    /* border-radius: 10px; */
+    /* margin: 0px 20px; */
+    font-family: "Poppins", sans-serif;
+    padding: 50px 170px;
+
+}
+.project-cards{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.project-images{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+.btn{
+    border: none;
+    padding: 16px 32px;
+    border: 2px solid black;
+    border-radius: 30px;
+    /* background-color:coral; */
+    /* color: white; */
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 100px ;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
